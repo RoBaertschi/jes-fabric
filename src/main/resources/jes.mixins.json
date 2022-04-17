@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ch.fantasticgame28.jes.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "SwordChanges"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
