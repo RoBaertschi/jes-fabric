@@ -8,11 +8,13 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
+
 public class ModItems {
 
+    /*
     public static final Item TEST_ITEM = registerItem("test",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
-
+    */
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(JES.MOD_ID, name), item);
